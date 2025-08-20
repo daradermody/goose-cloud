@@ -94,7 +94,7 @@ function HeroLeft() {
 
       <p style={{ fontSize: '19px', margin: '0', lineHeight: '1.3em' }}>
         Our set it and forget it methodology for organic Goose growth ensures you consistently get the results you're
-        looking for, without the hassle.
+        looking for, without the honking.
       </p>
 
       <div className="hero-cards" style={{ display: 'flex', gap: '10px' }}>
@@ -114,7 +114,7 @@ function HeroLeft() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          BEGIN GROWING NOW – FREE TRIAL!
+          BEGIN GOOSING NOW – FREE TRIAL!
         </a>
       </div>
 
@@ -143,7 +143,7 @@ function HeroRight() {
       </div>
 
       <iframe
-        src="https://www.youtube.com/embed/DL5uITrSJ4A?si=BRD19wmf4j3bvJ6a"
+        src="https://www.youtube.com/embed/tQbaYguYb04"
         // src="https://player.vimeo.com/video/904480410?muted=1&amp;autoplay=1&amp;autopause=0&amp;loop=1&amp;background=1&amp;app_id=122963&amp;texttrack=false"
         title="GooseCloud Testimonials"
         frameBorder="0"

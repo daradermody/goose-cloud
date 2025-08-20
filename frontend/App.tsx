@@ -5,6 +5,7 @@ import thumbsUp from './assets/thumbs_up.png'
 import step1Img from './assets/step_1.webp'
 import step2Img from './assets/step_2.webp'
 import step3Img from './assets/step_3.png'
+import conorImg from './assets/conor.png'
 
 export function App() {
   return (
@@ -13,6 +14,7 @@ export function App() {
       <TestimonialsSection/>
       <WhySection/>
       <HowItWorksSection/>
+      <SupportSection/>
       <EnhancedSection/>
       <Footer/>
     </div>
@@ -119,6 +121,57 @@ function HowItWorksSection() {
   )
 }
 
+function SupportSection() {
+  return (
+    <div style={{ backgroundColor: 'rgb(250, 248, 254)', paddingTop: '20px'}}>
+      <div
+        style={{
+          maxWidth: '1200px',
+          width: 'calc(100% - 60px)',
+          margin: '0 auto',
+          display: 'flex',
+          justifyContent: 'center',
+          gap: '40px',
+          color: '#000'
+        }}
+      >
+        <img src={conorImg} style={{ width: '500px' }}/>
+
+        <div style={{ marginTop: '40px' }}>
+          <h1 style={{ fontSize: '45px', fontWeight: '700', margin: '20px 0', }}>
+            24-hour support
+          </h1>
+
+          <p style={{ fontSize: '19px', margin: '0', lineHeight: '1.3em', maxWidth: '500px' }}>
+            When it's almost six o'clock, and your feeling absolutely goosed, you can count on our team to be there for
+            you. Our support team is available 24/7 to to get your geese honking again.
+          </p>
+
+          <div style={{ margin: '20px 10px', display: 'flex', flexDirection: 'column', gap: '20px' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <Megaphone/>
+              <span>Professional guidance from promotion specialists</span>
+            </div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <Megaphone/>
+              <span>Round-the-clock technical assistance available</span>
+            </div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <Megaphone/>
+              <span>Customized strategy based on your niche</span>
+            </div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <Megaphone/>
+              <span>Simple, secure, safe. Time to put the kettle on.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  )
+}
+
 function EnhancedSection() {
   return (
     <div style={{ backgroundImage: 'url(https://www.spotiflex.com/wp-content/uploads/2025/07/sp-img16.jpg)' }}>
@@ -179,6 +232,20 @@ function Checkmark() {
       <path
         d="M320 576C461.4 576 576 461.4 576 320C576 178.6 461.4 64 320 64C178.6 64 64 178.6 64 320C64 461.4 178.6 576 320 576zM404.4 276.7L324.4 404.7C320.2 411.4 313 415.6 305.1 416C297.2 416.4 289.6 412.8 284.9 406.4L236.9 342.4C228.9 331.8 231.1 316.8 241.7 308.8C252.3 300.8 267.3 303 275.3 313.6L302.3 349.6L363.7 251.3C370.7 240.1 385.5 236.6 396.8 243.7C408.1 250.8 411.5 265.5 404.4 276.8z"
       />
+    </svg>
+  )
+}
+
+function Megaphone() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 640 640"
+      width="24"
+      height="24"
+      style={{ transform: 'rotate(-30deg)' }}
+    >
+      <path d="M525.2 82.9C536.7 88 544 99.4 544 112L544 528C544 540.6 536.7 552 525.2 557.1C513.7 562.2 500.4 560.3 490.9 552L444.3 511.3C400.7 473.2 345.6 451 287.9 448.3L287.9 544C287.9 561.7 273.6 576 255.9 576L223.9 576C206.2 576 191.9 561.7 191.9 544L191.9 448C121.3 448 64 390.7 64 320C64 249.3 121.3 192 192 192L276.5 192C338.3 191.8 397.9 169.3 444.4 128.7L491 88C500.4 79.7 513.9 77.8 525.3 82.9zM288 384L288 384.2C358.3 386.9 425.8 412.7 480 457.6L480 182.3C425.8 227.2 358.3 253 288 255.7L288 384z"/>
     </svg>
   )
 }
