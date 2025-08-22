@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react'
+import gooseGameImg from '../assets/untitled_goose_game_small.png'
+import mercedesImg from '../assets/mercedes_small.png'
 
 export function TestimonialsSection() {
   return (
@@ -27,6 +29,8 @@ function CompanyTestimonials() {
       <img src="https://www.spotiflex.com/wp-content/uploads/2022/04/vice.jpg"/>
       <img src="https://www.spotiflex.com/wp-content/uploads/2022/04/wired.jpg"/>
       <img src="https://www.spotiflex.com/wp-content/uploads/2022/04/mashable-1.jpg"/>
+      <img src={mercedesImg}/>
+      <img src={gooseGameImg}/>
       <img src="https://www.spotiflex.com/wp-content/uploads/2022/04/elite-1.jpg"/>
       <img src="https://www.spotiflex.com/wp-content/uploads/2022/04/bf-1.jpg"/>
       <img src="https://www.spotiflex.com/wp-content/uploads/2022/04/forbes.jpg"/>
@@ -52,6 +56,8 @@ function CompanyTestimonials() {
       <img src="https://www.spotiflex.com/wp-content/uploads/2022/04/vice.jpg"/>
       <img src="https://www.spotiflex.com/wp-content/uploads/2022/04/wired.jpg"/>
       <img src="https://www.spotiflex.com/wp-content/uploads/2022/04/mashable-1.jpg"/>
+      <img src={mercedesImg}/>
+      <img src={gooseGameImg}/>
       <img src="https://www.spotiflex.com/wp-content/uploads/2022/04/elite-1.jpg"/>
       <img src="https://www.spotiflex.com/wp-content/uploads/2022/04/bf-1.jpg"/>
       <img src="https://www.spotiflex.com/wp-content/uploads/2022/04/forbes.jpg"/>
@@ -77,6 +83,8 @@ function CompanyTestimonials() {
       <img src="https://www.spotiflex.com/wp-content/uploads/2022/04/vice.jpg"/>
       <img src="https://www.spotiflex.com/wp-content/uploads/2022/04/wired.jpg"/>
       <img src="https://www.spotiflex.com/wp-content/uploads/2022/04/mashable-1.jpg"/>
+      <img src={mercedesImg}/>
+      <img src={gooseGameImg}/>
       <img src="https://www.spotiflex.com/wp-content/uploads/2022/04/elite-1.jpg"/>
       <img src="https://www.spotiflex.com/wp-content/uploads/2022/04/bf-1.jpg"/>
       <img src="https://www.spotiflex.com/wp-content/uploads/2022/04/forbes.jpg"/>
@@ -102,6 +110,8 @@ function CompanyTestimonials() {
       <img src="https://www.spotiflex.com/wp-content/uploads/2022/04/vice.jpg"/>
       <img src="https://www.spotiflex.com/wp-content/uploads/2022/04/wired.jpg"/>
       <img src="https://www.spotiflex.com/wp-content/uploads/2022/04/mashable-1.jpg"/>
+      <img src={mercedesImg}/>
+      <img src={gooseGameImg}/>
       <img src="https://www.spotiflex.com/wp-content/uploads/2022/04/elite-1.jpg"/>
       <img src="https://www.spotiflex.com/wp-content/uploads/2022/04/bf-1.jpg"/>
       <img src="https://www.spotiflex.com/wp-content/uploads/2022/04/forbes.jpg"/>
@@ -127,6 +137,8 @@ function CompanyTestimonials() {
       <img src="https://www.spotiflex.com/wp-content/uploads/2022/04/vice.jpg"/>
       <img src="https://www.spotiflex.com/wp-content/uploads/2022/04/wired.jpg"/>
       <img src="https://www.spotiflex.com/wp-content/uploads/2022/04/mashable-1.jpg"/>
+      <img src={mercedesImg}/>
+      <img src={gooseGameImg}/>
       <img src="https://www.spotiflex.com/wp-content/uploads/2022/04/elite-1.jpg"/>
       <img src="https://www.spotiflex.com/wp-content/uploads/2022/04/bf-1.jpg"/>
       <img src="https://www.spotiflex.com/wp-content/uploads/2022/04/forbes.jpg"/>
@@ -152,6 +164,8 @@ function CompanyTestimonials() {
       <img src="https://www.spotiflex.com/wp-content/uploads/2022/04/vice.jpg"/>
       <img src="https://www.spotiflex.com/wp-content/uploads/2022/04/wired.jpg"/>
       <img src="https://www.spotiflex.com/wp-content/uploads/2022/04/mashable-1.jpg"/>
+      <img src={mercedesImg}/>
+      <img src={gooseGameImg}/>
       <img src="https://www.spotiflex.com/wp-content/uploads/2022/04/elite-1.jpg"/>
       <img src="https://www.spotiflex.com/wp-content/uploads/2022/04/bf-1.jpg"/>
       <img src="https://www.spotiflex.com/wp-content/uploads/2022/04/forbes.jpg"/>

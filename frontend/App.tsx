@@ -26,7 +26,7 @@ function WhySection() {
     <div style={{ color: 'black', textAlign: 'center', backgroundColor: '#FAF8FE', margin: '20px auto', padding: '50px 0' }}>
       <h1 style={{ fontSize: '44px', maxWidth: '1000px', margin: '0 auto' }}>GooseCloud™ Patented Cloud-based® Goose Technology© Solves Modern Challanges</h1>
       <p style={{ fontSize: '1.2rem' }}>Our professional multi-channel promotion addresses these through legitimate marketing methods.</p>
-      <div style={{ display: 'flex', justifyContent: 'center', gap: '8px', fontSize: '1.3rem', maxWidth: '1200px', margin: '40px auto' }}>
+      <div className="challenges">
         <div>
           <img src="https://www.spotiflex.com/wp-content/uploads/2025/07/sp-img02.png"/>
           <p>Creating great content doesn’t guarantee discovery</p>
@@ -65,8 +65,8 @@ function HowItWorksSection() {
   return (
     <div id="how-it-works" style={{ color: 'black', textAlign: 'center', margin: '40px auto', padding: '20px 0' }}>
       <h1 style={{ fontSize: '44px', maxWidth: '1000px', margin: '0 auto' }}>3 Simple Steps To Enhanced Goose Visibility</h1>
-      <p style={{ fontSize: '1.2rem' }}>We handle the Cloud work, so you can focus on the Goose.</p>
-      <div style={{ display: 'flex', justifyContent: 'center', gap: '30px', maxWidth: '1200px', margin: '80px auto 40px' }}>
+      <p style={{ fontSize: '1.2rem' }}>We handle the Cloud work, so you can focus on the Geese.</p>
+      <div className="steps">
 
         <div style={{ backgroundColor: '#F4F4F4', maxWidth: '380px', borderRadius: '20px' }}>
           <div style={{ backgroundImage: 'linear-gradient(160deg, #18A34A 50%, #054B25 100%)', height: '230px', borderRadius: '20px 20px 0 0' }}>
@@ -123,18 +123,8 @@ function HowItWorksSection() {
 
 function SupportSection() {
   return (
-    <div style={{ backgroundColor: 'rgb(250, 248, 254)', paddingTop: '20px'}}>
-      <div
-        style={{
-          maxWidth: '1200px',
-          width: 'calc(100% - 60px)',
-          margin: '0 auto',
-          display: 'flex',
-          justifyContent: 'center',
-          gap: '40px',
-          color: '#000'
-        }}
-      >
+    <div id="support-section">
+      <div className="support-content">
         <img src={conorImg} style={{ width: '500px' }}/>
 
         <div style={{ marginTop: '40px' }}>
@@ -175,15 +165,7 @@ function SupportSection() {
 function EnhancedSection() {
   return (
     <div style={{ backgroundImage: 'url(https://www.spotiflex.com/wp-content/uploads/2025/07/sp-img16.jpg)' }}>
-      <div
-        style={{
-          maxWidth: '1200px',
-          width: 'calc(100% - 60px)',
-          margin: '0 auto',
-          display: 'flex',
-          justifyContent: 'space-between'
-        }}
-      >
+      <div className="enhanced">
         <div style={{ marginTop: '100px' }}>
           <h1
             style={{
@@ -254,7 +236,7 @@ function Footer() {
   return (
     <div style={{ backgroundColor: '#F4F4F4', padding: '40px 20px', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
       <p style={{ fontSize: '14px', color: '#666' }}>
-        © 2025 GooseCloud™. All rights reserved. | <a href="/privacy-policy">Privacy Policy</a> | <a href="/terms-and-conditions">Terms and Conditions</a>
+        © 2025 GooseCloud™. All rights reserved. | <a href="/privacy-policy.html">Privacy Policy</a> | <a href="/terms-and-conditions.html">Terms and Conditions</a>
       </p>
       <p style={{ fontSize: '12px', color: '#666', maxWidth: '1200px' }}>
         GooseCloud™ is a registered trademark of Grey Goose LLC, a subdivision of Conor Williams Equity and Assurance Brokers Ltd. Conor Williams may not be held liable for damages or losses of geese incurred through the use of GooseCloud™ services. Geese hatched within the GooseCloud™ ecosystem are not guaranteed to be organic or free-range. Please consult your local GooseCloud™ representative for more information on our patented Cloud-based® Goose Technology© platform service.

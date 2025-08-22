@@ -43,13 +43,7 @@ function Header() {
         <img src={logo} style={{ marginLeft: '20px', height: '60px' }} alt="logo"/>
         <h1 style={{ fontSize: '2.2rem', marginBottom: '10px' }}>GooseCloud</h1>
       </div>
-      <ul
-        style={{
-          listStyle: 'none',
-          display: 'flex',
-          gap: '40px',
-        }}
-      >
+      <ul className="header-nav">
         <li><a href="/">Home</a></li>
         <li><a href="/#how-it-works">How It Works</a></li>
         <li><a href="mailto:conzo@goosecloud.com?subject=Time%20to%20get%20GOOSED">Contact</a></li>
@@ -97,17 +91,14 @@ function HeroLeft() {
         looking for, without the honking.
       </p>
 
-      <div className="hero-cards" style={{ display: 'flex', gap: '10px' }}>
+      <div className="hero-cards">
         <HeroCard label="TOS Compliant" icon="https://www.spotiflex.com/wp-content/uploads/2022/04/TOS-Compliant.png"/>
         <HeroCard label="AI Powered Optimization" icon="https://www.spotiflex.com/wp-content/uploads/2022/02/AI_Powered__Optimization.png"/>
         <HeroCard label="Targeted Niche Specific Goosers" icon="https://www.spotiflex.com/wp-content/uploads/2022/02/Targeted_Niche_Specific_Followers.png"/>
         <HeroCard label="Set It - Forget It Technology" icon="https://www.spotiflex.com/wp-content/uploads/2022/02/Set_It_-_Forget_It__Technology.png"/>
       </div>
 
-      <div
-        className="call-to-action"
-        style={{ fontSize: '17px', display: 'inline-block', marginTop: '40px' }}
-      >
+      <div className="call-to-action">
         <a
           style={{ color: 'black', margin: '20px', textDecoration: 'none' }}
           href="https://www.youtube.com/live/VRTH4VpuO6o?si=OvGsFVZck9Cx5A_p&t=18796"

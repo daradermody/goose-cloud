@@ -18,6 +18,12 @@ body {
     color: white;
     text-decoration: none;
   }
+
+  .header-nav {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+  }
 }
 
 .call-to-action {
@@ -30,21 +36,34 @@ body {
   border-color: #795f24;
   box-shadow: 0 -20px 20px 0 rgb(238 186 68 / 50%) inset;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 .hero {
-  .hero-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 16px;
-    margin-top: 20px;
-    text-align: center;
-    border-right: 1px solid rgba(255,255,255,0.17);
-    padding: 2px 16px;
+  .hero-content {
+    .hero-cards {
+      display: flex;
 
-    &:last-of-type {
-      border: none;
+      .hero-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        margin-top: 20px;
+        text-align: center;
+        border-right: 1px solid rgba(255, 255, 255, 0.17);
+        padding: 2px 16px;
+
+        &:last-of-type {
+          border: none;
+        }
+      }
+    }
+
+    .call-to-action {
+      font-size: 17px;
+      display: inline-block;
+      margin-top: 40px;
     }
   }
 }
@@ -84,6 +103,97 @@ body {
   width: 143%;
 }
 
+.challenges {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  font-size: 1.3rem;
+  max-width: 1200px;
+  margin: 40px auto
+}
+
+#how-it-works {
+  .steps {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 80px auto 40px;
+  }
+}
+
+#support-section {
+  background-color: rgb(250, 248, 254);
+  padding-top: 20px;
+
+  .support-content {
+    max-width: 1200px;
+    width: calc(100% - 60px);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    color: black;
+  }
+}
+
+.enhanced {
+  max-width: 1200px;
+  width: calc(100% - 60px);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+  .hero {
+    .hero-content {
+      margin: 20px;
+
+      .hero-cards {
+        flex-direction: column;
+        justify-content: center;
+
+        .hero-card {
+          padding: 2px 8px;
+          border: none;
+        }
+      }
+
+      .call-to-action {
+        display: block;
+        text-align: center;
+      }
+
+      .top-confetti {
+        width: 105%;
+        margin: 0 -30px -40px;
+      }
+    }
+  }
+
+  .challenges {
+    margin: 40px 8px;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header .header-nav {
+    display: none;
+  }
+
+  .enhanced {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+
+    img {
+      display: none;
+    }
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .hero-content {
     flex-wrap: wrap;
@@ -103,5 +213,29 @@ body {
 
   .bottom-confetti {
     display: none;
+  }
+
+  #how-it-works {
+    .steps {
+      flex-direction: column;
+      align-items: center;
+      gap: 100px;
+    }
+  }
+
+  #support-section {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: invert(1);
+    color: white;
+    background-image: url("frontend/assets/conor.png");
+
+    .support-content {
+      img {
+        display: none;
+      }
+    }
   }
 }

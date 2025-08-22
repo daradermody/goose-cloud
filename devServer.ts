@@ -6,8 +6,8 @@ import termsAndConditions from './frontend/terms-and-conditions.html'
 const server = serve({
   routes: {
     '/*': index,
-    '/privacy-policy': privacyPolicy,
-    '/terms-and-conditions': termsAndConditions
+    '/privacy-policy.html': privacyPolicy,
+    '/terms-and-conditions.html': termsAndConditions
   },
   development: {
     hmr: true,
